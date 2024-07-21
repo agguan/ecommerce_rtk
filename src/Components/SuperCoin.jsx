@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
+import './SuperCoin.css'; 
 
 const SuperCoin = () => {
   const [superCoins, setSuperCoins] = useState(0);
